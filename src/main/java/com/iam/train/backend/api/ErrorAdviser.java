@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 
 @ControllerAdvice
 public class ErrorAdviser {
-    /** กำหนดการแสดงผลในกรณีที่  Exception*/
+    /** กำหนดการแสดงผลในกรณีที่  Exception ในกรณีที่เกิด 500*/
 
     @ExceptionHandler(BaseException.class)
     public ResponseEntity<ErrorResponse> handleException(BaseException e) {

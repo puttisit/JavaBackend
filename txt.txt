@@ -1,0 +1,8 @@
+docker run --name postgres -e POSTGRES_PASSWORD=syspass -p 5432:5432 -d postgres
+docker container ls
+
+
+package Entity คือ table ในรูปของ Java Spring boot เอาไว้คุยกับ database
+
+repository ช่วยในการจัดการ DataBase
+service interac กับ repo
