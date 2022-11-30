@@ -6,3 +6,27 @@ package Entity คือ table ในรูปของ Java Spring boot เอ�
 
 repository ช่วยในการจัดการ DataBase
 service interac กับ repo
+
+
+EP.1
+1.create project
+2.add dependecy
+3.start projetc
+4.miodel
+5.rest controler GET POS
+6.bussiness logis
+mapping ที่มร path
+mapping ที่ไม่มี path
+mapping ที่ @ResponseBody
+mapping ที่มี PathVariable
+7.ทำ error Exception handler
+user Exception
+product Exception
+8.Error advicer
+=============================
+EP.2
+1.Pending Topic
+2.DataBase (PostgreSQL)
+docker
+3.Security
+4.Unit Test
