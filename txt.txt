@@ -2,10 +2,13 @@ docker run --name postgres -e POSTGRES_PASSWORD=syspass -p 5432:5432 -d postgres
 docker container ls
 
 
+package API หน้าที่คือ controlor ในการเรียกใช้งาน
+package model สร้างตัวแปรสำหรับการทำงานของ class ต่างๆ
+package Business คือ Bussiness Logic
+package Exception การทำ thowr สำหรับมีการเรียกข้อมูลและแจ้ง Error
 package Entity คือ table ในรูปของ Java Spring boot เอาไว้คุยกับ database
-
-repository ช่วยในการจัดการ DataBase
-service interac กับ repo
+package repository ช่วยในการจัดการ DataBase
+package service interac กับ repo
 
 
 EP.1
